@@ -11,6 +11,10 @@
 		DAB3A00D29BED4DA00C00220 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3A00C29BED4DA00C00220 /* CreaturesListView.swift */; };
 		DAB3A00F29BED4DB00C00220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB3A00E29BED4DB00C00220 /* Assets.xcassets */; };
 		DAB3A01229BED4DB00C00220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB3A01129BED4DB00C00220 /* Preview Assets.xcassets */; };
+		DAB3A01A29BF680E00C00220 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3A01929BF680E00C00220 /* CreaturesViewModel.swift */; };
+		DAB3A01C29BF737100C00220 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3A01B29BF737100C00220 /* DetailView.swift */; };
+		DAB3A01E29BF765900C00220 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3A01D29BF765900C00220 /* Creature.swift */; };
+		DAB3A02029BF785500C00220 /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB3A01F29BF785500C00220 /* CreatureDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		DAB3A00E29BED4DB00C00220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB3A01129BED4DB00C00220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAB3A01829BED53900C00220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAB3A01929BF680E00C00220 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		DAB3A01B29BF737100C00220 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DAB3A01D29BF765900C00220 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		DAB3A01F29BF785500C00220 /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +62,11 @@
 			children = (
 				DAB3A01829BED53900C00220 /* Info.plist */,
 				DAB3A00A29BED4DA00C00220 /* CatchEmAllApp.swift */,
+				DAB3A01D29BF765900C00220 /* Creature.swift */,
+				DAB3A01929BF680E00C00220 /* CreaturesViewModel.swift */,
+				DAB3A01F29BF785500C00220 /* CreatureDetailViewModel.swift */,
 				DAB3A00C29BED4DA00C00220 /* CreaturesListView.swift */,
+				DAB3A01B29BF737100C00220 /* DetailView.swift */,
 				DAB3A00E29BED4DB00C00220 /* Assets.xcassets */,
 				DAB3A01029BED4DB00C00220 /* Preview Content */,
 			);
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB3A01A29BF680E00C00220 /* CreaturesViewModel.swift in Sources */,
+				DAB3A01C29BF737100C00220 /* DetailView.swift in Sources */,
 				DAB3A00D29BED4DA00C00220 /* CreaturesListView.swift in Sources */,
+				DAB3A01E29BF765900C00220 /* Creature.swift in Sources */,
+				DAB3A02029BF785500C00220 /* CreatureDetailViewModel.swift in Sources */,
 				DAB3A00B29BED4DA00C00220 /* CatchEmAllApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
